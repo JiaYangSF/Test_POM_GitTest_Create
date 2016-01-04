@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook suite">
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+
+	<test name="LoginTest">
+		<classes>
+			<class name="com.myTest.facebook.testCases.LoginTest" />
+		</classes>
+	</test>
+	
+	
+
+
+
+</suite>
